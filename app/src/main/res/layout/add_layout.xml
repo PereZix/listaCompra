@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtProductoName"
+            android:layout_margin="20dp"
+            android:width="110dp"
+            android:hint="@string/hintProducto"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="20dp"
+            android:maxLength="20" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edtCant"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/hintCantidad"
+            android:width="50dp"
+            android:maxLength="4" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPrecio"
+            android:layout_weight="0.55"
+            android:layout_gravity="center_vertical"
+            android:width="50dp"
+            android:layout_marginLeft="20dp"
+            android:inputType="numberDecimal"
+            android:hint="Precio"
+            android:maxLength="3" />
+
+        <TextView
+            android:layout_width="31dp"
+            android:layout_height="wrap_content"
+            android:text="Eu"
+            android:id="@+id/textView"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="0dp"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/edtDescrip"
+            android:layout_margin="20dp"
+            android:hint="@string/hintDescripcion"
+            android:maxLength="100" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAceptar"
+            android:id="@+id/btnAceptar"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCancelar"
+            android:id="@+id/btnCancelar"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

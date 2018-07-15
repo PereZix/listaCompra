@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LISTA DE LA COMPRA</string>
+    <string name="txvProducto">Producto</string>
+    <string name="txvCantidad">Cant:</string>
+    <string name="txvPrecio">Precio:</string>
+    <string name="txvCantVacia">-</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="hintProducto">Producto</string>
+    <string name="hintDescripcion">Descripcion</string>
+    <string name="hintCantidad">Cant</string>
+    <string name="errorBorrar">Error al intentar borrar producto</string>
+    <string name="errorCargarDatos">No se pueden cargar los datos</string>
+    <string name="introducirCantidad">Debes introducir una cantidad</string>
+    <string name="introducirNombrePro">Debes Introducir el nombre de un producto</string>
+    <string name="cantidadMayor0">Debes seleccionar una cantidad mayor de 0</string>
+    <string name="insercionCorrecta">El producto se ha insertado correctamente</string>
+    <string name="errorInsertar">Error al insertar el producto</string>
+    <string name="borrarProducto">Producto borrado correctamente</string>
+    <string name="tittleAddProducto">Añadir Producto</string>
+    <string name="titleEditProducto">Editar Producto</string>
+    <string name="errorModificar">Error al modificar datos</string>
+    <string name="okModificar">Producto actualizado correctamente</string>
+    <string name="noModificar">No se ha modificado el producto</string>
+    <string name="tittleDesc">Descripcion</string>
+    <string name="emptyDesc">No hay descripcion</string>
+    <string name="borradoAllok">Lista borrada</string>
+    <string name="borradoAllFail">Error al borrar toda la lista</string>
+    <string name="precioVacio">Debes introducir un precio</string>
+    <string name="precioMayorque0">El precio tiene que ser mayor que 0</string>
+    <string name="totalVacio">No hay ningun producto</string>
+
+    <string name="menuEditar">Editar</string>
+    <string name="menuEliminar">Eliminar</string>
+    <string name="menuDescripcion">Ver descripcion</string>
+</resources>
